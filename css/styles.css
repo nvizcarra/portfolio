@@ -124,6 +124,15 @@ h3 {
   }
 }
 
+/* Skills */
+
+.grid__skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 25%;
+    margin: 0rem 45rem;
+}
+
 /* Proyectos */
 
 .proyecto {
