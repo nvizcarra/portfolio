@@ -5,7 +5,7 @@
   --secundarioOscuro: #457b9d;
   --negro: #1d3557;
 
-  --fuentePrincipal: "Itim", cursive;
+  --fuentePrincipal: 'Source Sans Pro', sans-serif;
 }
 
 html {
@@ -21,7 +21,7 @@ html {
 
 /* Globales  */
 body {
-  background-color: var(--blanco);
+  background-color: var(--negro);
   font-size: 1.6rem;
   line-height: 1.5;
   color: #1d3557;
@@ -30,7 +30,7 @@ body {
 p {
   font-size: 1.8rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--negro);
+  color: var(--blanco);
 }
 
 a {
@@ -42,6 +42,7 @@ img {
 }
 
 .contenedor {
+  min-height: 1080px;
   max-width: 120rem;
   margin: 0 auto;
 }
@@ -50,7 +51,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  color: var(--primario);
+  color: var(--blanco);
   font-family: var(--fuentePrincipal);
 }
 
@@ -91,7 +92,7 @@ h3 {
 }
 
 .navbar {
-  background-color: var(--secundarioOscuro);
+  background-color: var(--negro);
   color: #fdfffc;
   display: flex;
   justify-content: flex-end;
@@ -166,4 +167,10 @@ h3 {
     font-family: var(--fuentePrincipal);
     text-align: center;
     color: var(--blanco)
+}
+
+.fondoIndex {
+  background-image: url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
