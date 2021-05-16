@@ -1,9 +1,10 @@
 :root {
-  --blanco: #ecc29c;
+  --blanco: #FFF;
+  --negro: #000;
+  --background: #ecc29c;  
   --primario: #1e847f;
-  --secundario: #a8dadc;
-  --secundarioOscuro: #457b9d;
-  --negro: #000000;
+  /* --secundario: #a8dadc;
+  --secundarioOscuro: #457b9d; */
 
   --fuentePrincipal: 'Source Sans Pro', sans-serif;
 }
@@ -123,7 +124,7 @@ h3 {
 .projects
    {
   height: 100vh;
-  background-color: var(--blanco);  
+  background-color: var(--background);  
 }
 
 .welcome__title {  
