@@ -128,12 +128,16 @@ h3 {
 .projects__title,
 .about__title {
   margin: 0;
+  
 }
 
 .projects__tile {
   border-style: solid;
   border-radius: .5rem;
   border-color: black;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 /* Grid  */
