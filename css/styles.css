@@ -84,12 +84,13 @@ h3 {
 }
 
 .button {
+  display: flex;
   position:relative;
   background-color: var(--primario);
   color: #FFF;
   border: 3px solid var(--primario);
-  border-radius: .5rem;
-  margin: auto;
+  border-radius: .3rem;
+  margin: 10% auto;
 }
 
 .footer__texto {
