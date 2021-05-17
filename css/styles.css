@@ -21,7 +21,7 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.5;
-  color: #1d3557;
+  color: var(--blanco);
 }
 
 p {
@@ -109,10 +109,11 @@ h3 {
 
 .welcome,
 .about,
-.projects
+.projects,
+.contact
    {
   height: 100vh;
-  background-color: var(--background);  
+  background-color: var(--background);    
 }
 
 .welcome__title {  
