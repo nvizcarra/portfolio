@@ -1,13 +1,13 @@
 :root {
-  --blanco: #FFF;
+  --blanco: #fff;
   --negro: #000;
-  --background: #ecc29c;  
+  --background: #ecc29c;
   --primario: #1e847f;
-  --fuentePrincipal: 'Source Sans Pro', sans-serif;
+  --fuentePrincipal: "Source Sans Pro", sans-serif;
 }
 
 html {
-  box-sizing: border-box;           
+  box-sizing: border-box;
   font-size: 80%;
 }
 
@@ -80,7 +80,7 @@ h3 {
 
 .footer {
   background-color: var(--primario);
-  padding: 1rem 0;  
+  padding: 1rem 0;
 }
 
 .footer__texto {
@@ -92,30 +92,42 @@ h3 {
 
 .button {
   display: flex;
-  position:relative;
+  position: relative;
   background-color: var(--primario);
-  color: #FFF;
+  color: #fff;
   border: 3px solid var(--primario);
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   margin: 10% auto;
 }
 
- .navbar {
+.navbar {
   background-color: var(--primario);
-  color: var(--blanco);
   justify-content: flex-end;
+}
+
+.navbar__links {
+  color: var(--blanco);
+  padding: .5rem 1rem;
+  display: block;
+  transition: 
+}
+
+.navbar__links:hover {
+  color: tomato;
+  padding: .5rem 1rem;
+  display: block;
+  transition: 
 }
 
 .welcome,
 .about,
 .projects,
-.contact
-   {
+.contact {
   height: 100vh;
-  background-color: var(--background);    
+  background-color: var(--background);
 }
 
-.welcome__title {  
+.welcome__title {
   margin: 0;
   padding-top: 20rem;
   padding-bottom: 0;
@@ -126,12 +138,11 @@ h3 {
 .projects__title,
 .about__title {
   margin: 0;
-  
 }
 
 .projects__tile {
   border-style: solid;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border-color: var(--primario);
   margin-top: 5%;
   margin-left: 2.5%;
@@ -142,17 +153,17 @@ h3 {
 /* About me */
 
 .grid__about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* Skills */
 
 .grid__skills {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 25%;
-    margin: 0rem 45rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 25%;
+  margin: 0rem 45rem;
 }
 
 /* Proyectos */
@@ -177,10 +188,10 @@ h3 {
 .projects__title,
 .projects__description,
 .projects__tile {
-    font-family: var(--fuentePrincipal);
-    text-align: center;
-    color: var(--blanco);
-    display: inline;
+  font-family: var(--fuentePrincipal);
+  text-align: center;
+  color: var(--blanco);
+  display: inline;
 }
 
 /* Grid  */
