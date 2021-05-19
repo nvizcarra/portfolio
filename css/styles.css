@@ -109,14 +109,12 @@ h3 {
   color: var(--blanco);
   padding: .5rem 1rem;
   display: block;
-  transition: 
 }
 
 .navbar__links:hover {
   color: tomato;
   padding: .5rem 1rem;
   display: block;
-  transition: 
 }
 
 .welcome,
