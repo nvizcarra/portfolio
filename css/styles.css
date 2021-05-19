@@ -88,6 +88,7 @@ h3 {
   text-align: center;
   color: var(--blanco);
   font-size: 1.5rem;
+  margin:0;  
 }
 
 .button {
@@ -119,9 +120,14 @@ h3 {
 
 .welcome,
 .about,
-.projects,
-.contact {
+.projects {            
   height: 100vh;
+  background-color: var(--background);
+  padding-top: 5%;
+}
+
+.contact {
+  height: 93vh;
   background-color: var(--background);
   padding-top: 5%;
 }
@@ -200,7 +206,7 @@ h3 {
 
 .contact__form {
   background-color: var(--primario);
-  margin: 2rem auto;
+  margin: rem auto;
   padding: 4rem 5rem;
   border-radius: 5rem;
 }
