@@ -123,6 +123,7 @@ h3 {
 .contact {
   height: 100vh;
   background-color: var(--background);
+  padding-top: 5%;
 }
 
 .welcome__title {
@@ -195,6 +196,23 @@ h3 {
   text-align: center;
   color: var(--blanco);
   display: inline;
+}
+
+.contact__form {
+  background-color: var(--primario);
+  margin: 2rem auto;
+  padding: 4rem 5rem;
+  border-radius: 5rem;
+}
+
+.contact__form--button {
+  display: flex;
+  position: relative;
+  background-color: darkorange;
+  color: #fff;
+  border: 3px solid darkorange;
+  border-radius: 0.3rem;
+  /* margin: 10% auto; */
 }
 
 /* Grid  */
