@@ -207,8 +207,8 @@ h3 {
 .contact__form {
   background-color: var(--primario);
   margin: rem auto;
-  padding: 4rem 5rem;
-  border-radius: 5rem;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
 }
 
 .contact__form--button {
