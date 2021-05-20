@@ -214,9 +214,9 @@ h3 {
 .contact__form--button {
   display: flex;
   position: relative;
-  background-color: darkorange;
-  color: #fff;
-  border: 3px solid darkorange;
+  /* background-color: darkorange; */
+  /* color: #fff; */
+  /* border: 3px solid darkorange; */
   border-radius: 0.3rem;
   /* margin: 10% auto; */
 }
