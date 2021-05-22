@@ -183,6 +183,14 @@ h3 {
   padding-top: 5%;
 }
 
+@media (min-width: 412px) and (orientation: portrait) {
+  .contact {
+    height: 93vh;
+    background-color: var(--background);
+    padding-top: 40%;
+  }
+}
+
 @media (min-width: 640px) and (orientation: landscape) {
   .contact {
     height: 175vh;
