@@ -162,6 +162,14 @@ h3 {
 }
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+  .about,
+  .projects {            
+    background-color: var(--background);
+    padding-top: 10%;
+}
+}
+
 @media (max-width: 768px) and (orientation: portrait) {
   .projects h1 {
     margin-top: 12.9rem;
