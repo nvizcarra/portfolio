@@ -183,6 +183,22 @@ h3 {
   padding-top: 5%;
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+  .contact {
+    height: 175vh;
+    background-color: var(--background);
+    padding-top: 5%;
+  }
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+  .contact {
+    height: 90vh;
+    background-color: var(--background);
+    padding-top: 5%;
+  }
+}
+
 .welcome__title {
   margin: 0;
   padding-top: 20rem;
@@ -269,6 +285,7 @@ h3 {
   margin: rem auto;
   padding: 2rem 3rem;
   border-radius: 1rem;
+  width: 90%;
 }
 
 .contact__form--button {
