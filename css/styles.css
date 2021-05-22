@@ -254,6 +254,10 @@ h3 {
   /* margin: 10% auto; */
 }
 
+.contact__form--text {
+  color: var(--blanco);
+}
+
 /* Grid  */
 
 .grid {
