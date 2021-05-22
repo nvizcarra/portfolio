@@ -129,7 +129,7 @@ h3 {
 .projects {            
   /* height: 100vh; */
   background-color: var(--background);
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 @media (min-width:412px) {
