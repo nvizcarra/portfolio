@@ -354,6 +354,26 @@ h3 {
   }
 }
 
+.error {
+  background-color: rgb(185,0,0);
+  text-align: center;
+  padding:1rem;
+  color:var(--blanco);
+  border-radius: 10px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.success {
+  background-color: rgb(74,185,0);
+  text-align: center;
+  padding:1rem;
+  color:var(--blanco);
+  border-radius: 10px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
 /* Grid  */
 
 .grid {

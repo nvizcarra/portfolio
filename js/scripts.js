@@ -32,10 +32,10 @@ contactForm.addEventListener('submit', function(evento) {
     const { inputName, inputEmail, inputMessage } = formData;
 
     if(inputName === '' || inputEmail === '' || inputMessage === '') {
-        showError('You must complete all fields');
+        showError('Please complete all fields');
 
         return;
-    }
+    } else return messageSent('Your message has been sent');
 
     // Form Sent
 
@@ -49,4 +49,23 @@ function showError(mensaje) {
     error.classList.add('error');
 
     contactForm.appendChild(error);
+
+    // Error fadeout
+    setTimeout(() => {
+        error.remove();
+    }, 3000);
+}
+
+// Show success message function
+function messageSent(mensaje) {
+    const success = document.createElement('P');
+    success.textContent = mensaje;
+    success.classList.add('success');
+
+    contactForm.appendChild(success);
+
+     // Message fadeout
+     setTimeout(() => {
+        success.remove();
+    }, 4000);
 }
