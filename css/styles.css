@@ -330,6 +330,30 @@ h3 {
   color: var(--blanco);
 }
 
+@media (min-width: 360px) {
+  .contact__form--textarea {
+    max-height: 7rem;
+  }
+}
+
+@media (min-width: 412px) {
+  .contact__form--textarea {
+    max-height: 15rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .contact__form--textarea {
+    max-height: 10rem;
+  }
+}
+
+@media (min-width: 1680px) {
+  .contact__form--textarea {
+    max-height: 20rem;
+  }
+}
+
 /* Grid  */
 
 .grid {
