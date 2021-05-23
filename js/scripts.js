@@ -22,3 +22,11 @@ function readText(e) {
 
     console.log(formData);
 }
+
+// Submit Event
+const contactForm = document.querySelector('#contact__form');
+contactForm.addEventListener('submit', function(evento) {
+    evento.preventDefault();
+
+    console.log('Form sent');
+});
