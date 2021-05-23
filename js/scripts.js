@@ -28,5 +28,25 @@ const contactForm = document.querySelector('#contact__form');
 contactForm.addEventListener('submit', function(evento) {
     evento.preventDefault();
 
+    // Form validation with destructuring
+    const { inputName, inputEmail, inputMessage } = formData;
+
+    if(inputName === '' || inputEmail === '' || inputMessage === '') {
+        showError('You must complete all fields');
+
+        return;
+    }
+
+    // Form Sent
+
     console.log('Form sent');
 });
+
+// Show error function
+function showError(mensaje) {
+    const error = document.createElement('P');
+    error.textContent = mensaje;
+    error.classList.add('error');
+
+    contactForm.appendChild(error);
+}
