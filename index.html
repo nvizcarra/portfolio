@@ -75,20 +75,20 @@
         <h1>Contact me</h1>
         <br>
         <div class="container contact__form">
-            <form target="_blank" action="https://formsubmit.co/10d0116efd39b2cdf33bd034e62f13c7" id="contact__form" method="POST">
-                <!-- <div class="mb-3"> -->
+            <form target="_blank" action="https://formsubmit.co/10d0116efd39b2cdf33bd034e62f13c7" id="contact__form" method="POST" class="needs-validation" novalidate>
+                <div class="mb-3">
                     <label for="name" class="form-label contact__form--text">Name</label>
-                    <input type="name" name="name" class="form-control" id="inputName" placeholder="Your name" value="<?=$varName;?>">
-                <!-- </div>
-                <div class="mb-3"> -->
+                    <input type="text" name="name" class="form-control" id="inputName" placeholder="Your name" required>
+                </div>
+                <div class="mb-3">
                     <label for="email" class="form-label contact__form--text">Email address</label>
-                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="name@example.com" value="<?=$varEmail;?>">
-                <!-- </div>
-                <div class="mb-3"> -->
+                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
                     <label for="message" class="form-label contact__form--text">Message</label>
-                    <textarea name="message" class="form-control contact__form--textarea" id="inputMessage" placeholder="Your message..." rows="3" value="<?=$varMessage;?>"></textarea>
-                <!-- </div> -->
-                <button type="submit" name="formSubmit" class="btn btn-light btn-lg" value="Submit">Send</button>
+                    <textarea name="message" class="form-control contact__form--textarea" id="inputMessage" placeholder="Your message..." rows="3" required></textarea>
+                </div>
+                <button type="submit" name="formSubmit" class="btn btn-light btn-lg">Send</button>
             </form>    
         </div>
         
@@ -102,5 +102,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/validation.js"></script>
 </body>
 </html>
