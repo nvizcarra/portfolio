@@ -66,17 +66,17 @@ h1 {
   }
 }
 
-@media (min-width: 412px) {
+/* @media (min-width: 412px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
-}
+} */
 
-@media (min-width: 1366px) {
+/* @media (min-width: 1366px) {
   h1 {
     font-size: 5rem;
   }
-}
+} */
 
 h2 {
   font-size: 3.2rem;
