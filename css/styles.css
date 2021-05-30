@@ -1,9 +1,9 @@
 :root {
   --blanco: #fff;
-  --negro: #000;
+  --negro: #525252;
   --background: #fff;
   --primario: #0072B5;
-  --fuentePrincipal: "Source Sans Pro", sans-serif;
+  --fuentePrincipal: "Rubik", sans-serif;
 }
 
 html {
@@ -144,6 +144,16 @@ h3 {
   padding-top: 15%;
 }
 
+.main {
+  background: red;
+	height: 90vh;
+	background: url(../img/169573.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media (min-width:412px) and (orientation: portrait) {
   .welcome,
   .about,
@@ -170,7 +180,7 @@ h3 {
   .projects {            
     height: 100vh;
     background-color: var(--background);
-    padding-top: 5%;
+    padding-top: 20%;
 }
 }
 
@@ -231,7 +241,7 @@ h3 {
   margin: 0;
   padding-top: 20rem;
   padding-bottom: 0;
-  color: var(--negro);
+  color: var(--blanco);
 }
 
 @media (min-width: 640px) and (orientation:landscape) {
@@ -239,7 +249,7 @@ h3 {
     margin: 0;
     padding-top: 10rem;
     padding-bottom: 0;
-    color: var(--negro);
+    color: var(--blanco);
   }
 }
 
