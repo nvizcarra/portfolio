@@ -78,6 +78,31 @@ h1 {
   }
 } */
 
+/* .carousel {
+  height: 60%;
+  width: 50%;
+  margin:auto;
+} */
+
+@media (min-width:1366px) {
+  .carousel {
+    height: 60%;
+    width: 50%;
+    margin:auto;
+  }
+}
+
+.carousel-item p {
+  color: white;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
 h2 {
   font-size: 3.2rem;
 }
