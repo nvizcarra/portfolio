@@ -163,8 +163,8 @@ h3 {
 }
 
 .welcome,
-.about,
-.projects {            
+.about
+ {            
   /* height: 100vh; */
   background-color: var(--background);
   padding-top: 15%;
@@ -182,8 +182,8 @@ h3 {
 
 @media (min-width:412px) and (orientation: portrait) {
   .welcome,
-  .about,
-  .projects {            
+  .about
+   {            
     /* height: 100vh; */
     background-color: var(--background);
     padding-top: 45%;
@@ -192,8 +192,8 @@ h3 {
 
 @media (min-width:640px) and (orientation: landscape) {
   .welcome,
-  .about,
-  .projects {            
+  .about
+   {            
     /* height: 100vh; */
     background-color: var(--background);
     padding-top: 0%;
@@ -202,8 +202,8 @@ h3 {
 
 @media (min-width: 768px) {
   .welcome,
-  .about,
-  .projects {            
+  .about
+   {            
     height: 100vh;
     background-color: var(--background);
     padding-top: 20%;
@@ -211,19 +211,19 @@ h3 {
 }
 
 @media (min-width: 640px) and (orientation: landscape) {
-  .about,
-  .projects {            
+  .about
+  /* .projects {             */{
     background-color: var(--background);
     padding-top: 10%;
 }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+/* @media (max-width: 768px) and (orientation: portrait) {
   .projects h1 {
     margin-top: 12.9rem;
     font-size: 3rem;
   }
-}
+} */
 
 .contact {
   height: 93vh;
@@ -284,12 +284,12 @@ h3 {
 }
 
 .about__title,
-.projects__title,
+/* .projects__title, */
 .about__title {
   margin: 0;
 }
 
-.projects__tile {
+/* .projects__tile {
   border-style: solid;
   border-radius: 0.5rem;
   border-color: var(--primario);
@@ -298,11 +298,11 @@ h3 {
   margin-left: 2.5%;
   margin-right: 2.5%;
   /* background-color: var(--primario); */
-}
+/* } */
 
-.projects__tile--text {
-  color: var(--blanco);
-}
+/* .projects__tile--text {
+  color: var(--blanco); 
+} */
 
 /* About me */
 
@@ -322,7 +322,7 @@ h3 {
 
 /* Proyectos */
 
-.proyecto {
+/* .proyecto {
   background-color: var(--secundarioOscuro);
   font-size: 2rem;
 }
@@ -330,9 +330,9 @@ h3 {
 .proyecto__imagen {
   padding: 1rem;
   width: 100%;
-}
+} */
 
-.proyecto__titulo {
+/* .proyecto__titulo {
   font-size: 2.5rem;
 }
 .proyecto__descripcion {
@@ -346,7 +346,7 @@ h3 {
   text-align: center;
   color: var(--blanco);
   display: inline;
-}
+} */
 
 .contact__form {
   /* background-color: var(--primario); */
@@ -511,3 +511,25 @@ h3 {
   } */
 }
 
+  /* color: var(--blanco);
+} */
+
+.projects__grid {
+  display: grid;    
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 80%;
+  margin: 5rem auto;
+  gap: 100px;
+}
+
+.projects__text {
+  text-align: center;
+  
+}
+
+.projects__tile {
+  width: 100%;
+  
+}
