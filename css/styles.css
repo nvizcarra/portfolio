@@ -573,11 +573,9 @@ h3 {
 }
 
 .projects__text {
-  /* margin-top: 5%; */
+  margin-top: 5%;
   /* font-size: 3rem; */
-  color: white;
-  margin:0px;
-  padding:0px;
+  color: var(--negro);
 }
 
 @media (min-width:768px) {
